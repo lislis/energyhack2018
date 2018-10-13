@@ -1,0 +1,13 @@
+source 'https://rubygems.org'
+
+ruby '2.5.1'
+
+gem 'sinatra'
+gem 'sinatra-contrib'
+gem 'sinatra-cross_origin'
+gem 'sequel'
+gem 'sanitize'
+gem 'slim'
+gem 'thin'
+gem 'shotgun'
+gem 'sqlite3'

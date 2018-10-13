@@ -1,0 +1,24 @@
+h1 Endpoints
+ul
+  li
+    h2 Provider
+    p
+      code GET /api/providers
+    p
+      code GET /api/providers/:slug
+  li
+    h2 Offer
+    p
+      code GET /api/providers/:provider_slug/offers
+  li
+    h2 Pin
+    p
+      code GET /api/providers/:provider_slug/pins
+    p
+      code POST /api/providers/:provider_slug/pins
+      p takes :name and :description
+    p
+      code PATCH /api/pin/:pid_id
+      p takes :status and :comment
+    p
+      code POST /api/pin/:pid_id/like
